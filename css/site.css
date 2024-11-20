@@ -842,11 +842,11 @@ iframe {
   width: 100%;
   border-radius: 20px;
   background-color: #d9d9d9;
-}
-.contact-information-box .bg-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  overflow: hidden;
+  background-image: url("../assets/images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 /* Contact us ends */
 
